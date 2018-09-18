@@ -12,7 +12,6 @@ sourceSets {
   test {
     java {srcDir 'test'}
     resources {srcDir 'test'}
-    scala { srcDirs 'test' }
   }
 }
 

@@ -23,8 +23,8 @@ public class HangmanTestUsingPageObject extends AbstractHangmanTest {
   public static void startBrowser() {
 //    driver = new HtmlUnitDriver();
 //    driver = new FirefoxDriver();
-//    driver = new ChromeDriver();
-    driver = new PhantomJSDriver();
+    driver = new ChromeDriver();
+//	  driver = new PhantomJSDriver();
   }
 
   @AfterClass
